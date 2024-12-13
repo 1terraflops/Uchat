@@ -1,0 +1,160 @@
+#message-entry {
+    background-color: #364034;
+    color: #D2B48C;
+    padding: 10px;
+    border: 3px solid #2d362b;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+#message-entry:hover,
+#message-entry:focus {
+    background-color: #4a200b;
+    outline: none;
+    border-radius: 7px;
+}
+
+#send-button {
+    font-weight: bold;
+    background-color: #364034;
+    background-image: none;
+    color: #bd663a;
+    border: 3px solid #2d362b;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#send-button:hover {
+    background-color: #3A2A20;
+    color: #FFD7AF;
+}
+
+#send-button:active {
+    background-color: #281E14;
+}
+
+#emoji-button {
+    background-color: #364034;
+    color: #FFFFFF;
+    border: 3px solid #2d362b;
+    font-size: 14px;
+    border-radius: 6px;
+    background-image: none;
+}
+
+#emoji-button:hover {
+    background-color: #8A5B46;
+    padding: 12px;
+}
+
+#emoji-button:active {
+    background-color: #5C3729;
+    padding: 10px;
+}
+
+popover {
+    background-color: #694330;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #8A5B46;
+    padding: 10px;
+}
+
+popover label {
+    color: #FFD7AF;
+    font-size: 16px;
+}
+
+popover button:hover {
+    background-color: #8A5B46;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#search-button {
+    font-weight: bold;
+    background-color: #364034;
+    background-image: none;
+    color: #bd663a;
+    border: 3px solid #2d362b;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+#search-button:hover {
+    background-color: #3A2A20;
+    color: #FFD7AF;
+}
+
+#search-button:active {
+    background-color: #281E14;
+}
+
+#search-entry {
+    background-color: #364034;
+    color: #D2B48C;
+    border: 3px solid #2d362b;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+#search-entry:focus {
+    background-color: #4a200b;
+    border: 4px solid #364034;
+    outline: none;
+    border-radius: 7px;
+}
+
+#chat-display {
+    background-color: #283027;
+    font-family: "Arial", sans-serif;
+    font-size: 17px;
+    border: none;
+    padding-top: 10px;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#chat-display text {
+    background-color: transparent;
+    color: #fcd7c7;
+    font-family: "Arial", sans-serif;
+}
+
+#chat-display > GtkTextView {
+    background-color: transparent;
+}
+
+#top-panel {
+    background-color: #4b5949;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#bottom-panel {
+    background-color: #4b5949;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-window {
+    background-color: #4b5949;
+}
+
+#label {
+    color: #B5564E;
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #5C3729;
+    border: 3px solid #8A5B46;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #39251B;
+    margin: 5px;
+}

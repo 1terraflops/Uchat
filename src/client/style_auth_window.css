@@ -1,0 +1,39 @@
+#auth_window {
+    background-color: #1c2619;
+}
+
+.auth_window_box {
+    background-color: #885b3f;
+    padding: 2px;
+    margin: 0px;
+    min-width: 300px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+#auth_window_username_entry {
+    background-color: #5A4E44;
+    color: #ebddd5;
+    border: 1.7px solid #5A3C2A;
+    border-radius: 6px;
+    padding: 3px;
+    margin-top: 25px;
+}
+
+#auth_window_password_entry {
+    background-color: #5A4E44;
+    color: #ebddd5;
+    border: 1.7px solid #5A3C2A;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+#auth_window_login_button,
+#auth_window_register_button {
+    background-color: #593420;
+    background-image: none;
+    color: #b5947f;
+    border: 2px solid #6b3b37;
+    border-radius: 5px;
+    padding: 3px;
+}
